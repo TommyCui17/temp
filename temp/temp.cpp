@@ -15,10 +15,7 @@ int main() {
 
 	give(giver, &basket);
 	take(taker, &basket);
-	give(giver, &basket);
-	give(giver, &basket);
-	take(taker, &basket);
-
+	
 	//Test for a new branch
 	printf("The basket have %d apples\n", basket);
 
